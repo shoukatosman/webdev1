@@ -51,7 +51,7 @@ nav ul li{
 nav ul li a{
    text-decoration:none; 
    color: #3b506c;
-   font-weight:600px;
+   font-weight:450px;
    font-size:17px;
 }
 
@@ -106,3 +106,73 @@ color: red !important;
 .child2{
     text-align:left;
 }
+
+/*--gallery_img part css start--*/
+.gallery_img{ 
+    width:32%;
+    float:left; 
+    position:relative;  
+}
+.gallery_img img{
+    width:100%;
+}
+
+.gallery_middle{
+    margin:0 2%;
+}
+
+.gallery_overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+}
+
+.gallery_img h2{  
+ color: #0062ff;
+ font-size: 20px;
+ margin:0;
+}
+
+.gallery_img h3{  
+ font-size:2opx;
+ color: blue;
+ margin: 0;
+}
+
+.gallery_img h4{  
+ font-size:20px;
+ color:blue;
+ margin:0;
+}
+
+.gallery_img p{
+    font-size: 10px;
+    width:30%;
+}
+/*--gallery_img part css end--*/
+
+/*--footer part css start--*/
+footer_common_heading h3{
+    font-size:30px;
+    color:black;
+}
+footer_common_heading h4{
+    font-size:30px;
+    color:black;
+}
+
+footer_common_heading h5{
+    font-size:30px;
+    color:black;
+}
+footer_common_heading h6{
+    font-size:40px;
+    color:black;
+}
+
+footer_img{
+    margin-bottom:20px;
+}
+/*--footer part css end--*/
