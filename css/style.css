@@ -1,0 +1,110 @@
+
+
+
+body{
+    margin:0;
+    padding:0;
+    box-sizing: boder-box;
+    font-size: 16px;
+}
+p{
+    color: #3b506c;
+}
+.container{
+    width:90%;
+    margin:auto;
+}
+
+header{
+    box-shadow: rgba(33, 35, 38, / 26%) 0px 14px 14px -10px;
+}
+
+.nav-main{
+display: flex;
+justify-content: space-between;
+padding:30px 30px;
+box-shadow:10px 10px 35px 12px skyblue;
+align-items:center;
+}
+
+nav ul{
+margin:0;
+padding:0;
+/*display:flex;*/
+}
+
+nav ul li{
+    display:inline;
+    padding: 0px 0px 0px 30px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#3b506c;
+    font-weight:600;
+    font-size:18px;
+}
+
+
+/* ===== banner start ===== */
+.banner{
+    text-align: center;
+    margin:100px 0 0 0;
+}
+
+.banner h1{
+    font-size: 50px;
+    color: #3b506c;
+    margin:0;
+}
+.banner h1 span{
+    color: #0c66ff;
+}
+
+.banner
+
+.banner p{
+    font-size:20px; 
+}
+
+.banner img{
+   width:60%;
+   margin:auto;
+   margin:30px 0 0 0;
+}
+
+/* =====banner end===== */
+
+
+/* ===== completed project ===== */
+.complete{
+display: flex;
+}
+
+.complete-child{
+    width: 50%;
+    text-align:right;
+    padding:25px;
+}
+
+.complete-child h2{
+    font-size: 40px;
+    
+}
+
+.complete-child p{
+
+}
+
+.child1{
+    text-align:right;
+    color:red;
+}
+
+.child2{
+text-align:left;
+color:#3b506c;
+}
+
+
+
