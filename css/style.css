@@ -1,106 +1,110 @@
+
+
+
 body{
     margin:0;
     padding:0;
-    box-sizing: border-box;
-    font-size:17px;
+    box-sizing: boder-box;
+    font-size: 16px;
+}
+p{
+    color: #3b506c;
+}
+.container{
+    width:90%;
+    margin:auto;
 }
 
 header{
-background-image:url(../image/dawn.jpg);
-background-repeat: no-repeat;
-background-size:cover;
-background-position:center;
-background-blend-mode:multiply;
-background-color: #00000094;
+    box-shadow: rgba(33, 35, 38, / 26%) 0px 14px 14px -10px;
 }
 
 .nav-main{
-    width:90%;
-    margin:0;
-    display:flex;
-    justify-content: space-between;
-}
-
-nav{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    left: 0;
-    right: 0;
-    padding: 0px 120px 0px 120px;
-    margin: -20px 0px 0px 20px;
-}    
-
-nav h1{
-color:white;
-font-size:20px;
-margin: 32px 0px 12px 8px;
-}
-
-
-nav h1 span{
-  font-weight: 100; 
+display: flex;
+justify-content: space-between;
+padding:30px 30px;
+box-shadow:10px 10px 35px 12px skyblue;
+align-items:center;
 }
 
 nav ul{
 margin:0;
 padding:0;
-display: flex;
-list-style:none;
+/*display:flex;*/
 }
 
 nav ul li{
-margin: 0 0 0 20px;
-
+    display:inline;
+    padding: 0px 0px 0px 30px;
 }
 
 nav ul li a{
-    text-decoration: none;
-    text-transform:capitalize;
-    color:black;
+    text-decoration:none;
+    color:#3b506c;
     font-weight:600;
-    color:white;
-    
+    font-size:18px;
 }
 
+
+/* ===== banner start ===== */
 .banner{
-padding: 180px 0px 10px 400px;
-  text-align: center;
-  color:white;
-  
+    text-align: center;
+    margin:100px 0 0 0;
 }
 
-.banner h2{
-    font-size: 28px;
-    font-style: italic;
+.banner h1{
+    font-size: 50px;
+    color: #3b506c;
+    margin:0;
+}
+.banner h1 span{
+    color: #0c66ff;
 }
 
-.banner span{
-    background-color: red;
-    height: 5px;
-    width: 160px;
-    display: inline-block;
-    border-radius: 10px;
+.banner
+
+.banner p{
+    font-size:20px; 
 }
 
-.banner h3{
-    font-size: 45px;
+.banner img{
+   width:60%;
+   margin:auto;
+   margin:30px 0 0 0;
 }
 
-.banner button{
-background-color:rgb(190, 14, 14);
-color:white;
-padding: 15px 30px;
-font-size: 15px;
-letter-spacing: 2px;
-border: 1px solid rgb(190, 14, 14);
- border-radius: 35px;
- transition:all 0.3s linear;
+/* =====banner end===== */
+
+
+/* ===== completed project ===== */
+.complete{
+display: flex;
 }
 
-.banner button:hover{
-    background-color:rgba(190, 14, 14, 0);
-    letter-spacing: 3px;
+.complete-child{
+    width: 50%;
+    text-align:right;
+    padding:25px;
+}
+
+.complete-child h2{
+    font-size: 40px;
     
 }
+
+.complete-child p{
+
+}
+
+.child1{
+    text-align:right;
+    color:red;
+}
+
+.child2{
+text-align:left;
+color:#3b506c;
+}
+
+
+
