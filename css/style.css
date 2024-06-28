@@ -3,8 +3,18 @@ body{
     padding:0;
     box-sizing: border-box;
     font-size:17px;
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+</style>
 }
 
+img{
+    width:100%;
+}
+
+section{
+    padding:50px 0;
+}
 header{
 background-image:url(../image/dawn.jpg);
 background-repeat: no-repeat;
@@ -65,7 +75,7 @@ nav ul li a{
 }
 
 .banner{
-padding: 180px 0px 10px 400px;
+padding: 160px 0px 10px 365px;
   text-align: center;
   color:white;
   
@@ -85,7 +95,7 @@ padding: 180px 0px 10px 400px;
 }
 
 .banner h3{
-    font-size: 45px;
+    font-size: 60px;
 }
 
 .banner button{
@@ -97,10 +107,151 @@ letter-spacing: 2px;
 border: 1px solid rgb(190, 14, 14);
  border-radius: 35px;
  transition:all 0.3s linear;
+ margin:0 0 70px 10px;
 }
 
 .banner button:hover{
     background-color:rgba(190, 14, 14, 0);
     letter-spacing: 3px;
     
+}
+
+/* upcomming Events */
+.event-main{
+    text-align:center;
+}
+.event-main h2{
+    margin:0;
+    font-size:40px;
+}
+.event-main span{
+    background-color: red;
+    height: 5px;
+    width: 160px;
+    display: inline-block;
+    border-radius: 10px; 
+    margin: 11px 0px 50px 0px;
+}
+.event{
+    display:flex;
+    width:80%;
+    margin:30px auto 0;
+}
+.event-box{
+    width:50%;
+    margin:20px;
+}
+.event-box img{
+    height: 350px;
+    object-fit: cover;
+    border-radius:10px;
+    box-shadow:rgba(25, 6, 44, 0.4) 0px 0px 0px 2px, rgba(44, 6, 17, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px 0px inset
+}
+.event-box h3{
+    font-size: 20px;
+    margin: 20px 0px 25px 0px;
+}
+
+.event-box p{}
+.event-box a{
+    color:red;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+/* EXPLORE THE WORLD */
+.explore-section{
+    background-image:url(../image/father.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-blend-mode:multiply;
+    background-color:rgba(0, 0, 255, 0.466);
+    color:white;
+    background-attachment:fixed;
+}
+.explore-main{
+    display:flex;
+    padding: 50px 0;
+}
+.explore{
+    width:50%
+}
+.explore h2{
+    font-size:65px;
+    margin-bottom: 0;
+}
+.explore span{
+    background-color: red;
+    height: 5px;
+    width: 160px;
+    display: inline-block;
+    border-radius: 10px; 
+    margin: 11px 0px 50px 0px;  
+}
+
+.explore p{
+    margin: -20px 0px 12px 0px;
+}
+
+.explore a{
+    color:white;
+    text-decoration:none;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*TOURS & DESTINATION*/
+.tour-main{
+    display:flex;
+}
+.tour{
+    padding: 14px;
+}
+.tour h3{
+    font-size:30px;
+    margin:11px 0 12px 0;
+}
+
+.tour span{
+    background-color: red;
+    height: 5px;
+    width: 160px;
+    display: inline-block;
+    border-radius: 10px; 
+    margin: 11px 0px 50px 0px;  
+}
+
+
+.tour p{
+    font-size:17px;
+    margin:-20px 0 0 0;
+}
+.tour a{}
+.tour img{}
+.small{
+    height:300px;
+    object-fit:cover;
+    margin:0 0 20px 0;
+}
+.large{
+    height:350px;
+    object-fit:cover;
+    margin:0 0 20px 0;
+}
+
+/*footer*/
+footer{
+    background-color:black;
+    color:white;
+    padding:60px 0;
+    text-align:center;
+}
+
+.fab{
+font-size:40px;
+color:white;
+margin:10px;
 }
