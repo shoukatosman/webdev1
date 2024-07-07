@@ -1,0 +1,286 @@
+    /* small phone, medium phone and large phone = 0 => 600px and down) */
+    @media only screen and (max-width:600px){
+
+        h1{
+            font-size:30px; 
+        }
+
+        h2{
+            font-size:25px;  
+        }
+
+        h3{
+            font-size:20px;
+        }
+    
+        .container{
+            width:100%;
+        }
+    
+        section{
+            padding:60px 0; 
+        }
+    
+        nav h4{
+            font-size:25px;
+            margin:0;
+            text-align:left;
+            padding:15px;
+        }
+     
+        nav ul{
+            padding: 0;
+            display:flex;
+            justify-content:center;
+        }
+
+        nav ul li{
+            margin:0 15px 10PX 5px;
+        }
+    
+        nav ul li a{
+            font-size: 18px;
+        } 
+
+        /*===banner part mobile device css start===*/
+        .banner{
+            padding:100px 0 110px;
+            text-align:center;
+            color:white;
+        }
+            
+        .banner h3{
+            font-size: 30px;
+            font-style: italic;
+            margin:0 0 10px 0;
+        }
+            
+        span{
+            height:4px;
+            width: 140px;
+        }
+            
+        .banner button{
+            padding:15px 30px;
+            letter-spacing:2px;
+        }
+
+         /*===event mobile devic part css start===*/
+            
+        .event{
+            display:block;
+            width:100%;
+            margin:30px auto 0;    
+        }
+            
+        .event-box img{
+            height:300px;
+        }
+            
+        .event-box{
+            width:95%;
+            margin:0px auto;
+        }
+               
+        .event-img-mobile{
+            margin-top:50px;
+        }
+
+        /* explore mobile device css part*/
+        .explore-main{
+            display:block;
+        }
+            
+        .explore{
+            width:100%;
+        }
+            
+        .explore p{
+               margin:30px 0; 
+        }
+            
+        .explore a{
+                font-size:18px;
+        }
+
+        /* Tour and Destination mobile device css part*/
+        .tours-main{
+            display:block;
+        }
+            
+        .tour{
+            padding:10px;
+        }
+            
+        .tour a{
+        }
+
+        .tour img{
+        }
+            
+        .tour p{
+            margin:20px 0;
+        }
+            
+        .small{
+            height:300px;
+            margin:0 0 10px 0;
+        }
+            
+        .large{
+                height:300px;
+                margin:0 0 10px 0;
+        }
+
+        /*Footer mobile device part css start*/
+        footer{
+            padding:30px 10px;
+        }
+
+        .fab{
+            font-size: 25p;
+            margin:5px;
+        }      
+    }
+
+        /* Tab device media query*/
+@media only screen and (min-width:601px) and (max-width:768px){
+    h1{
+        font-size:40px; 
+    }
+
+    h2{
+        font-size:30px;  
+    }
+
+    h3{
+        font-size:25px;
+    }
+
+    .container{
+        width:100%;
+    }
+
+    section{
+        padding:60px 0; 
+    }
+
+    nav h4{
+        font-size:25px;
+        margin:0;
+        text-align:left;
+        padding:15px;
+    }
+
+    nav ul{
+        padding: 0;
+        display:flex;
+        justify-content:center;
+    }
+
+    nav ul li{
+        margin:0 15px 10PX 5px;
+    }
+
+    nav ul li a{
+        font-size: 18px;
+    } 
+
+    /*===banner part Tab device css start===*/
+    .banner{
+        padding:100px 0 110px;
+        text-align:center;
+        color:white;
+    }
+        
+    span{
+        height:4px;
+        width: 140px;
+    }
+        
+    .banner button{
+        padding:15px 30px;
+        letter-spacing:2px;
+    }
+
+     /*===event Tab part css start===*/
+    .event{
+        width:90%;
+    }
+            
+    .event-box img{
+        height:320px;
+    }
+        
+    .event-box{
+        width:50%;
+        margin:15px;
+    }
+        
+    /* explore Tab device css part*/
+    .explore-main{
+        display:block;
+    }
+        
+    .explore{
+        width:80%;
+        margin:auto;
+    }
+        
+    .explore p{
+           margin:40px 0; 
+    }
+
+    /* Tour and Destination Tab device css part*/
+    .tour{
+        padding:10px;
+    }
+         
+    .tour p{
+        margin:20px 0;
+    }
+        
+    .small{
+        height:300px;
+        margin:0 0 10px 0;
+    }
+        
+    .large{
+        height:350px;
+        margin:0 0 10px 0;
+    }
+
+    /*Footer Tab device part css start*/
+    footer{
+        padding:50px 10px;
+    }
+
+    .fab{
+        font-size: 30p;
+        margin:7px;
+    }      
+}
+
+    /* small laptop , squire monitor */
+    @media only screen and (min-width=769px) and (max-width=1024px){
+        h1{
+            font-size:50px; 
+        }
+        
+        h2{
+            font-size:35px;  
+        }
+        
+        h3{
+            font-size:25px;
+        }
+           
+    }
+
+    /* large laptop , squire monitor */
+    @media only screen and (min-width=1025px) and (max-width=1440px){
+        h1{
+            font-size:10px; 
+        }
+    }
+
