@@ -1,3 +1,328 @@
-.some{
-    font-size:50px;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,900&display=swap');
+
+html{
+    scroll-behavior: smooth;
 }
+
+body{
+    margin:0;
+    padding:0;
+    -webkit-box-sizing:border-box;
+        box-sizing:border-box;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+}
+
+img{
+    width:100%;
+}
+
+h1{
+    font-size:70px; 
+}
+
+h2{
+    font-size:40px;  
+}
+
+h3{
+    font-size:30px;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+}
+
+section{
+    padding:50px 0; 
+}
+
+header{
+    background-image:url(../image/dawn.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-blend-mode:multiply;
+    background-color:rgba(0, 0, 0, 0.571);
+}
+
+nav{
+    z-index: 10;
+    width:90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+nav h4{
+    color:white;
+    font-size:24px;
+}
+ 
+nav h4 span{
+    font-weight:100;
+    background-color:rgba(255, 0, 0, 0.005);
+    height:0;
+    width:0;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+}
+
+nav ul li{
+    margin:0 0 0 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    font-weight:600;
+    font-size:17px;
+    color:white;
+}
+
+/* banner part css start*/
+.banner{
+padding:180px 0 150px;
+text-align:center;
+color:white;
+}
+
+.banner h3{
+font-size: 30px;
+font-style: italic;
+margin:0 0 10px 0;
+}
+
+span{
+background-color:red;
+display:inline-block;
+height:5px;
+width: 160px;
+border-radius:10px;
+}
+
+.banner button{
+background-color:rgba(255, 0, 0, 0.532);
+color:white;
+padding:15px 30px;
+font-size:20px;
+letter-spacing:2px;
+border:1px solid #d11818;
+border-radius:35px;
+-webkit-transition:all .3s linear;
+-o-transition:all .3s linear;
+transition:all .3s linear;
+}
+
+.banner button:hover{
+background-color:rgba(255, 0, 0, 0);
+letter-spacing:3px;
+}
+
+/* banner part css end*/
+
+/* Upcomming Event part css start*/
+.event-main{
+text-align: center;
+}
+.event-main h2{
+margin:0;
+}
+
+.event{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    width:80%;
+    margin:30px auto 0; 
+
+}
+
+.event-box img{
+height:350px;
+-o-object-fit:cover;
+   object-fit:cover;
+-webkit-box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 50px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 50px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.event-box{
+width:50%;
+margin:20px;
+}
+
+.event-box h4{
+font-size:20px;
+margin:25px 0 20px 0;
+
+}
+
+.event-box a{
+color:red;
+text-decoration: none;
+letter-spacing: 2px;
+font-size:20px;
+}
+
+/* Upcomming Event part css End*/
+
+/* Explore the world part css start */
+
+.explore-section {
+background-image:url(../image/father.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+background-position:center;
+background-blend-mode:multiply;
+background-color:rgba(0, 0, 255, 0.525);
+color:white;
+background-attachment: fixed;
+}
+.explore-main{
+display:-webkit-box;
+display:-ms-flexbox;
+display:flex;
+padding:50px 0;
+}
+
+.explore{
+width:50%;
+}
+
+.explore h1{
+    margin-bottom:0;
+}
+
+.explore p{
+   margin:40px 0; 
+}
+
+.explore a{
+    color:white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size:20px;
+    font-weight: bold;
+}
+/* Explore the world part css end */
+
+/*Tours and Destination part css start */
+.tours-main{
+display:-webkit-box;
+display:-ms-flexbox;
+display:flex;
+}
+
+.tour{
+padding:14px;
+}
+
+.tour h3{
+margin:0;
+}
+
+.tour p{
+margin:30px 0;
+}
+
+.tour a{
+
+}
+
+.tour img{
+
+}
+
+.small{
+height:300px;
+-o-object-fit: cover;
+   object-fit: cover;
+margin:0 0 20px 0;
+}
+
+.large{
+    height:370px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin:0 0 20px 0;
+}
+/*Tours and Destination part css End*/
+
+/*Footer part css start*/
+footer{
+    background-color:black;
+    color:white;
+    padding:60px 0;
+    text-align:center;
+}
+.fab{
+    font-size: 40px;
+    color:white;
+    margin:10px;
+}
+/*Footer part css End*/
+
+  /* scroll bar part css  start */
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+/* Track */
+    ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.393);
+            box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.393); 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(128, 128, 128, 0.493); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(128, 128, 128, 0.479); 
+  }
+  /* scroll bar part css  end*/
+
+
+  
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 35px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+
+            
