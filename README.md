@@ -1,11 +1,8 @@
-# React core concept project
-## It will be show on github
-
-Welcome to my react core concept and this readme.md will help how to open this project and what is done in this project by using live link.this project is done by N224-2
+# React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
 
-- [live website link](https://daisyui.com/)
--
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
